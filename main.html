@@ -1,45 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Favorite Movie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        section {
+            margin-bottom: 20px;
+            padding: 10px;
+            background: #fff;
+            border: 1px solid #ccc;
+        }
+        aside {
+            background: #e2e2e2;
+            padding: 10px;
+            margin: 20px 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
 
-  <header>
-    <h1>The Dark Knight</h1>
-  </header>
+    <header>
+        <h1>Your Favorite Movie Title</h1>
+    </header>
 
-  <nav>
-    <ul>
-      <li><a href="#nav-actor">Actors</a></li>
-      <li><a href="#nav-quote">Quotes</a></li>
-    </ul>
-  </nav>
+    <nav>
+        <a id="nav-actor" href="#actor">Actors</a>
+        <a id="nav-quote" href="#quote">Quotes</a>
+    </nav>
 
-  <section id="summary">
-    <h2>Plot Summary</h2>
-    <p>Batman faces a new villain, the Joker, who seeks to create chaos in Gotham. As the Joker wreaks havoc, Batman must confront his own morals to stop him.</p>
-  </section>
+    <section>
+        <h2>Summary</h2>
+        <p>This is a brief summary of the plot of your favorite movie. Describe the main story points and themes.</p>
+    </section>
 
-  <section id="nav-actor">
-    <h2>Actors</h2>
-    <p>Christian Bale as Batman, Heath Ledger as the Joker, Gary Oldman as Commissioner Gordon.</p>
-  </section>
+    <section id="actor">
+        <h2>Actors</h2>
+        <p>Details about the actors in the movie, including their roles and other notable films.</p>
+    </section>
 
-  <section id="nav-quote">
-    <h2>Favorite Quote</h2>
-    <p>"Why so serious?" – The Joker</p>
-  </section>
+    <section id="quote">
+        <h2>Favorite Quote</h2>
+        <p>Your favorite quote from the movie goes here. Include context if necessary.</p>
+    </section>
 
-  <aside>
-    <h2>IMDb Info</h2>
-    <p>Rating: 9.0/10</p>
-    <p>Release Date: July 18, 2008</p>
-  </aside>
+    <aside>
+        <h3>Additional Information</h3>
+        <p>IMDb Rating: 8.7/10</p>
+        <p>Release Date: January 1, 2020</p>
+    </aside>
 
-  <footer>
-    <p>Produced by: <name> Christopher Nolan </name></p>
-  </footer>
+    <footer>
+        <p>Produced by: Your Producer's Name</p>
+    </footer>
 
 </body>
 </html>
